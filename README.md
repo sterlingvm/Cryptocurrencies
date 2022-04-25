@@ -38,6 +38,8 @@ a k value of 4 clusters seems to be the best as that point clearly serves as the
     <img src="https://github.com/sterlingvm/Cryptocurrencies/blob/main/Resources/3d.png"> 
 </p>
 By ising PCA (Principal Component Analysis) to reduce the dimensionality of the dataset to 3 principal components we were able to apply our data to a #D scatter plot graph where our 3 principal components served as the x, y, and z axes. The resulting graph demonstrates the 4 distinct clusters of cryptocurrencies, A.K.A. the 4 distinct types of cryptocurrencies in the data.
+
+Note: that a 2D Scatterplot of cryptocurrency classification is also possible but for a well-suited, accountable result we would instead need to reduce the dimensionality of our original (scaled) data to 2 Principal Components using PCA instead of 3, then map that data to a scatter plot with the axes representing our 2 newly developed principal components.
 <br><br>
 
 #### Tradable Cryptocurrencies Table
